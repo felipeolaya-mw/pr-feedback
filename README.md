@@ -2,7 +2,7 @@
 
 A Claude Code mod that opens a side pane with the current branch, its last commit and its pull request, and lists the PR's review feedback: review threads (with file and line), review summaries and general comments.
 
-From the pane you pick the comments to act on and either hand them to the VIP task doc (ODD) flow or ask Claude to work on them. Both actions fill the prompt; nothing is sent until you press Enter.
+From the pane you pick the comments to act on and either hand them to the task doc (ODD) flow or ask Claude to work on them. Both actions fill the prompt; nothing is sent until you press Enter.
 
 The mod only reads GitHub. It never replies to, resolves or comments on a PR.
 
@@ -24,7 +24,7 @@ Mark comments with `[ ]`, then:
 
 | Key | Action |
 |-----|--------|
-| `o` | Pass to ODD: fills the prompt asking the `vipmed-odd:odd` skill to add the selected comments to the branch's task doc, and marks them "en ODD" |
+| `o` | Pass to ODD: fills the prompt asking the `odd` skill to add the selected comments to the branch's task doc, and marks them "en ODD" |
 | `w` | Work: fills the prompt asking Claude to address the selected comments, with no commit, push or GitHub reply, and marks them "en curso" |
 | `d` | Mark the selected comments done |
 | `c` | Clear the mark of the selected comments |
