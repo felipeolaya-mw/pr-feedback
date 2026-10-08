@@ -1,0 +1,5 @@
+{
+  "name": "pr-feedback",
+  "owner": { "name": "felipeolaya-mw" },
+  "plugins": [{ "name": "pr-feedback", "source": "./" }]
+}

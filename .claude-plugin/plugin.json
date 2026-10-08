@@ -1,0 +1,10 @@
+{
+  "name": "pr-feedback",
+  "version": "0.1.0",
+  "description": "Side pane with the current branch's commit and PR review feedback; pick comments to work on or hand to the VIP ODD",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "felipeolaya-mw"
+  },
+  "repository": "https://github.com/felipeolaya-mw/pr-feedback"
+}
