@@ -36,7 +36,7 @@ Marks are kept per PR across sessions. The pane refreshes after each turn when t
 ## Limits
 
 - Reads the first 100 review threads, 50 reviews and 100 comments of a PR, with no pagination.
-- The `o` action relies on the `vipmed-odd` plugin being installed.
+- The `o` action relies on the `odd` plugin being installed.
 
 ## Develop
 
